@@ -1,0 +1,15 @@
+COMANDOS
+ -> npm init - y (cria o arquivo package.json)
+ -> npm install express (O express sobe o servidor local e gerencia as rotas)
+ -> npm install body parser (Converte os dados que chegam no body das requisições)
+ -> npm install --save-dev nodemon (Instala o nodemon como  dependência de desenvolvimento, porque ele não é usado na aplicação)
+ -> npm install mysql2
+ -> npm install sequelize sequelize-cli path (Instala o ORM Sequelize. Sequelize cli (comand line interface) serve para usar recursos de linha de comando do sequelize)
+ -> npx sequelize-cli init (cria um projeto sequelize vazio, npx serve para rodar as depêndencias que estão instaladas localmente)
+ -> npx sequelize-cli model:create --name Pessoas --attributes nome:string,ativo:boolean,email:string,role:string
+ -> npx sequelize-cli db:migrate
+ -> npx sequelize-cli db:migrate:undo
+ -> npx sequelize-cli seed:generate --name demo-pessoa
+ -> npx sequelize-cli db:seed:all
+ -> npx sequelize db:seed:undo
+ 
